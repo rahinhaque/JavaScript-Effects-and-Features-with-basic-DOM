@@ -16,3 +16,11 @@ addFriend.addEventListener('click' , function(){
   }
 });
 
+document.getElementById("next").addEventListener('click' , ()=>{
+  window.location.assign('insta.html')
+})
+
+
+
+
+

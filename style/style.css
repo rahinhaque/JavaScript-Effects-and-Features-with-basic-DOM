@@ -9,11 +9,14 @@ html , body{
   height: 100%;
   width: 100%;
 }
-body{
+body {
   display: flex;
+  flex-direction: column;       
   align-items: center;
   justify-content: center;
   background-color: cornflowerblue;
+  padding: 20px;               
+  min-height: 100%;             
 }
 
 #card{
@@ -59,4 +62,68 @@ body{
 #card  button:hover{
   transform: scale(1.1);
 }
+#next {
+  border-radius: 20px;
+  padding: 12px 20px;
+  background-color: aquamarine;
+  cursor: pointer;
+  margin-top: 20px;             
+}
+.title {
+  font-size: 18px;
+  font-weight: 700;
+  color: #1877f2;
+  background-color: #fff;
+  padding: 12px 24px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 25px;        
+  text-align: center;
+  border-left: 5px solid #1877f2;
+  width: fit-content;          
+}
 
+
+/* Insta css code  */
+#body {
+  background-color: lightseagreen;
+  display: flex;
+  flex-direction: column;       
+  justify-content: center;
+  align-items: center;
+  height: 100%;                 
+  gap: 20px;                    
+}
+#container{
+  position: relative;
+  background-color: white;
+  height: 400px;
+  width: 350px; 
+  border-radius: 12px;
+}
+#container img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: top;
+}
+#container i{
+  color: #fff;
+  font-size: 70px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% ,-50%) scale(0);
+  opacity: 0.8;
+  transition: all ease 0.4s;
+}
+.title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.25);  /* subtle dark pill */
+  padding: 10px 24px;
+  border-radius: 30px;
+  letter-spacing: 1px;
+  text-align: center;
+}
