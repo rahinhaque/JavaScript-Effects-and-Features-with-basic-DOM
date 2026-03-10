@@ -23,7 +23,7 @@ body{
   border-radius: 10px;
   padding: 30px;
   text-align: center;
-  transition: background-color 0.3s ease, transform 0.3s ease;
+  transition: background-color 0.5s ease, transform 0.6s ease;
 }
 #card:hover{
   transform: scale(1.1);
@@ -46,7 +46,7 @@ body{
   margin-bottom: 15px;
 }
 #card  button{
-  background-color: cadetblue;
+  background-color: lightskyblue;
   color: #fff;
   font-weight: 700;
   padding: 12px 20px;
@@ -60,7 +60,3 @@ body{
   transform: scale(1.1);
 }
 
-#card #remove{
-  background-color: #dadada;
-  color: black;
-}
