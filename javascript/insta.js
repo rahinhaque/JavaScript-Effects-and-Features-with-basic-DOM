@@ -13,3 +13,7 @@ con.addEventListener("dblclick", function () {
 setTimeout(() => {
   love.classList.remove("translate(-50% ,-50%) scale(0)");
 }, 1000);
+
+document.getElementById("next").addEventListener("click", () => {
+  window.location.assign("cursor.html");
+});
