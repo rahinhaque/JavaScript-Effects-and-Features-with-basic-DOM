@@ -1,5 +1,5 @@
 document.getElementById("next").addEventListener("click", () => {
-  window.location.assign("insta.html");
+  window.location.assign("multieffect.html");
 });
 
 
